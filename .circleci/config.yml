@@ -32,6 +32,10 @@ jobs:
             gem install bundler
 
       - run:
+          name: Install Dependencies
+          command: bundle install
+
+      - run:
           name: Build site
           command: bundle exec jenkins server
 
