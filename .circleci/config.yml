@@ -29,12 +29,12 @@ jobs:
             - v1-deps-{{ .Branch }}
             - v1-deps
 
+      - run: gem update --system
+      - run: gem install bundler
+
       - run:
           name: Install Dependencies
-          command: |
-            - gem update --system
-            - gem install bundler
-            - bundle install
+          command: bundle install
 
       - run:
           name: Build site
