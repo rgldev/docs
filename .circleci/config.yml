@@ -30,12 +30,11 @@ jobs:
             - v1-deps
 
       - run:
-          name: Install Bundle
-          command: gem install bundler -v 2.1.4
-
-      - run:
           name: Install Dependencies
-          command: bundle install
+          command: |
+            - gem update --system
+            - gem install bundler
+            - bundle install
 
       - run:
           name: Build site
