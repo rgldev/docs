@@ -37,7 +37,7 @@ jobs:
 
       - run:
           name: Build site
-          command: bundle exec jenkins server
+          command: bundle exec jekyll build --config _config_dev.yml
 
       # run tests!
       - run: npm run test
