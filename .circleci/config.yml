@@ -41,7 +41,7 @@ jobs:
 
       - run:
           name: Node install
-          command: npm ci
+          command: npm i
 
       # run tests!
       - run: npm run test
