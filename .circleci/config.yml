@@ -39,5 +39,9 @@ jobs:
           name: Build site
           command: bundle exec jekyll build --config _config_dev.yml
 
+      - run:
+          name: Node install
+          command: npm ci
+
       # run tests!
       - run: npm run test
