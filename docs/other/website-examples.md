@@ -10,6 +10,7 @@ parent: Other
 
 # Example of websites using swup
 To get an idea of what swup does...  
+[AnimatiCSS](https://animaticss.com/)   
 [Tvoříme lepší svět - Panasonic](https://plzen.cz.panasonic.com/)   
 [25 let - Raiffeisen stavební spořitelna](https://www.rsts.cz/25let/)   
 [Plan-k - KPMG](https://www.plan-k.cz/)   
